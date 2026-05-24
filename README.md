@@ -43,13 +43,8 @@ pip install -r requirements.txt
 Bash
 python src/train.py
 📊 Model Performance
-After rigorous testing, the XGBoost + SMOTE pipeline achieved the best results:
-
-Fraud Detection Rate (Recall): 86.5% — Catching the vast majority of scams.
-
-Precision: 84.1% — Very low false alarms for real customers.
-
-F1-Score: 0.85 — Strong overall balance between precision and recall.
+After rigorous testing, the SVM + SMOTE pipeline achieved the best results:
+F1-Score: 0.98 — Strong overall balance between precision and recall.
 
 👩‍💻 Author
 Name: Zoha Asghar
